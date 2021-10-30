@@ -2,6 +2,7 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
 import { FormularioComponent } from './formulario.component';
+import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 describe('FormularioComponent', () => {
   let component: FormularioComponent;

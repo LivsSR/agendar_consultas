@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
-  
+
+// o que estou add// 
+import { FormularioComponent } from '../formulario/formulario.component';
 
 import { AgendarConsultaPageRoutingModule } from './agendar-consulta-routing.module';
 
@@ -16,6 +18,6 @@ import { AgendarConsultaPage } from './agendar-consulta.page';
     IonicModule,
     AgendarConsultaPageRoutingModule
   ],
-  declarations: [AgendarConsultaPage]
+  declarations: [AgendarConsultaPage, FormularioComponent]
 })
 export class AgendarConsultaPageModule {}

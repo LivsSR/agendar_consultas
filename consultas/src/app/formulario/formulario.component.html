@@ -1,19 +1,18 @@
 <div class="content">
   <ion-label>Nome</ion-label>
-  <ion-input></ion-input>
+  <ion-input [(ngModel)]="nome" placeholeder= "Escolha seu pokemon"></ion-input>
   <ion-label>Especie</ion-label>
-  <ion-input></ion-input>
+  <ion-input  [(ngModel)]="especie" placeholeder= "Escolha a especie"></ion-input>
   <ion-label>Especialidade</ion-label>
-  <ion-input></ion-input>
+  <ion-input  [(ngModel)]="especialidade" placeholeder= "Escolha a especialidade médica"></ion-input>
   <ion-label>Data</ion-label>
-  <ion-input></ion-input>
+  <ion-input  [(ngModel)]="data"></ion-input>
   <ion-label>Horário</ion-label>
-  <ion-input></ion-input>
+  <ion-input  [(ngModel)]="horario"></ion-input>
   <ion-label>Observações</ion-label>
-  <ion-input></ion-input>
+  <ion-input  [(ngModel)]="observacoes" placeholeder= "Motivo da consulta, detalhes do pokemon..."></ion-input>
 
 
-   <ion-button color="sucess">Agendar</ion-button>
+   <ion-button color="sucess" (click)="inserir()">Agendar</ion-button>
+   <ion-button (click)="voltar()">voltar</ion-button>
 </div>
-  formulario works!
-</p>
