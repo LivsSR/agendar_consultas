@@ -9,7 +9,7 @@ import { DatePipe } from '@angular/common';
 export class DadosConsultasService {
   public consultas: IConsulta[] = [
    ]
-  private storage;
+  private storage: Storage;
 
   constructor(storage: Storage) { 
     this.storage = storage;

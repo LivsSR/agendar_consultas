@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DadosConsultasService } from '../dados-consultas.service';
-import { FormBuilder, FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-formulario',
